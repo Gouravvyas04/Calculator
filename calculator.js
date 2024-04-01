@@ -9,7 +9,7 @@ btns.forEach(function (btn) {
     //   input.value = "";
     input.value += btn.textContent;
     output = true;
-    if(output===true){
+    if(output==true){
       input.value="";
       output = false;
     }
